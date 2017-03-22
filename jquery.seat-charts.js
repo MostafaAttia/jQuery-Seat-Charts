@@ -86,7 +86,7 @@
 							focusable      : true,
 							tabIndex       : -1 //manual focus
 						})
-						.text(fn.settings.label)
+						.html(fn.settings.label)
 						.addClass(['seatCharts-seat', 'seatCharts-cell', 'available'].concat(
 							//let's merge custom user defined classes with standard JSC ones
 							fn.settings.classes, 
